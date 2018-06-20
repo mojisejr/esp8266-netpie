@@ -5,16 +5,16 @@
 #include <Wire.h>
 #include <ACROBOTIC_SSD1306.h>
 
-const char* ssid = "n/a";
-const char* pwd = "n/a";
+const char* ssid = "";
+const char* pwd = "";
 
 #define DHTPIN D5 
 #define FANPIN D8
 #define HDPIN D7
 #define BOARD "ESP8266"
 #define APPID "CHAMBER1"
-#define KEY "5QqAPKDLqPxJvmY"
-#define SECRET "dMq7CWHtgQ98N51YBYQJWpEuN"
+#define KEY ""
+#define SECRET ""
 
 #define ALIAS "pieChamber1"
 WiFiClient client;
